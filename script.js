@@ -7,6 +7,7 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 }
 
+
 // scroll section 
  let sections = document.querySelectorAll('section');
  let navLinks = document.querySelectorAll('header nav a');
@@ -44,6 +45,7 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 }
 
+
 // scroll reveal 
 ScrollReveal({
     reset: false,
@@ -60,11 +62,11 @@ ScrollReveal().reveal('.home-sci a, .about-content', { origin: 'bottom', interva
 ScrollReveal().reveal('.education-row, .content, .l', { origin: 'left', interval: 400 });
 
 
-ScrollReveal().reveal('.l', { origin: 'left', interval: 300 });
+ScrollReveal().reveal('.l, .sidebar', { origin: 'left', interval: 300 });
 ScrollReveal().reveal('.R', { origin: 'rigth', interval: 300 });
 
 
-ScrollReveal().reveal('.skills-column, textarea, .contact .btn', { origin: 'bottom', interval: 180 });
+ScrollReveal().reveal('.skills-column, textarea, .contact .btn, .work', { origin: 'bottom', interval: 180 });
 
 
 
@@ -115,3 +117,5 @@ function sendMail() {
       .catch(err=>console.log(err));
   
   }
+
+
