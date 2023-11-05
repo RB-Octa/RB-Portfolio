@@ -95,7 +95,7 @@ section{
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/img/w-rb.png') no-repeat;
+    background: url('img/w-rb.png') no-repeat;
     background-size: cover;
     animation: floatImage 4s ease-in-out infinite;
 }
