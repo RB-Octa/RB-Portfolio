@@ -791,7 +791,7 @@ padding-bottom: 1rem;
     height: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
-    color: var(--bg-color);
+    color: var(--main-bg-color);
     background: transparent;
     border-radius: .6rem;
     border: .2rem solid var(--main-bg-color);
